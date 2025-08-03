@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fatular the Voice</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f4f4f4;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      padding: 0.75rem 1.5rem;
+      margin: 0.5rem;
+      border: none;
+      cursor: pointer;
+      background: crimson;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+    section {
+      padding: 2rem;
+      background: #fff;
+      margin: 1rem 0;
+    }
+    h2 {
+      border-bottom: 2px solid crimson;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .values, .fights, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .value, .fight, .project {
+      flex: 1 1 200px;
+      background: #eee;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">FATULAR</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Mission</a>
+    <a href="#">Programs</a>
+    <a href="#">Media</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>FATULAR THE VOICE</h1>
+  <p>"What You Fear to Say, I Say Loud."</p>
+  <p>I speak against injustice, I empower the youth, I challenge silence.</p>
+  <button class="btn">Join the Movement</button>
+  <button class="btn">Watch My Work</button>
+</section>
+
+<section>
+  <h2>ABOUT FATULAR</h2>
+  <p>Fatular the Voice is a youth activist and legal mind from Osun, Nigeria. My purpose is to awaken the silent, defend the oppressed, and equip youth with the tools to challenge injustice through education, law, and voice.</p>
+  <p>This is more than a brand. It’s a movement. It’s fire. It’s necessary.</p>
+  <button class="btn">Learn More About My Story</button>
+</section>
+
+<section>
+  <h2>OUR MISSION</h2>
+  <p>To speak boldly against injustice, educate the oppressed with legal knowledge, and build a fearless generation ready to fight gender violence, poor education, and teen pregnancy.</p>
+  <h2>OUR VISION</h2>
+  <p>A Nigeria where no voice is silenced, no youth is left behind, and every person lives free, educated, and safe.</p>
+</section>
+
+<section>
+  <h2>CORE VALUES</h2>
+  <div class="values">
+    <div class="value">🔥 Boldness</div>
+    <div class="value">🧠 Knowledge</div>
+    <div class="value">🤝 Empowerment</div>
+    <div class="value">⚖ Justice</div>
+    <div class="value">🕊 Healing</div>
+  </div>
+</section>
+
+<section>
+  <h2>WHAT WE FIGHT FOR</h2>
+  <div class="fights">
+    <div class="fight">- Gender Violence Awareness & Justice</div>
+    <div class="fight">- Teen Pregnancy Prevention & Education</div>
+
+    <div class="fight">- Street and School Educational Outreach</div>
+    <div class="fight">- Mental Health & Healing for Activists</div>
+  </div>
+</section>
+
+<section>
+  <h2>PROJECTS & CAMPAIGNS</h2>
+  <div class="projects">
+    <div class="project">🟢 "Know Your Right" Series</div>
+    <div class="project">🟣 #LoudForHer</div>
+    <div class="project">🟡 Street Law Tour – Osun Schools</div>
+    <div class="project">🔵 Healing Hangouts</div>
+  </div>
+
+  
+</section>
+
+<section>
+  <h2>WATCH MY VOICE IN ACTION</h2>
+  <p>🎥 Interviews | 🎙 Speeches | 📢 Street Talks | 📚 Educational Series</p>
+  <button class="btn">Follow my Socials<br>
+    IG: lawalfatular<br>
+    X: lawalfatular<br>
+    FB: lawalfatular 
+   
+  </button>
+</section>
+
+<section class="contact">
+  <h2>GET IN TOUCH</h2>
+  <form>
+    <input type="text" placeholder="Name" required />
+    <input type="email" placeholder="Email" required />
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button class="btn" type="submit">Submit</button>
+  </form>
+  <p>📬 Email: fatularthevoice@gmail.com</p>
+  <p>📱 WhatsApp: 07073347035</p>
+  <p>📍 Osun, Nigeria</p>
+  <p>Follow us: Instagram | Twitter | TikTok | Facebook</p>
+</section>
+
+<section>
+  <h2>About the Founder – Lawal Faruq Ademola</h2>
+  <p>“What You Fear to Say, I Say Loud.”</p>
+  <p>I am Lawal Faruq Ademola, a 19-year-old from Odeomu, Osun State, Nigeria. I speak loud because silence is dangerous. I fight for the broken, the voiceless, the youth of Nigeria—and beyond—who are ready to reclaim their future.</p>
+  <p>This is not about being perfect. It’s about being real.</p>
+  <button class="btn">Apply to Collaborate</button>
+  <button class="btn">Become a Voice Partner</button>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Fatular the Voice. All Rights Reserved.</p>
+  <p>| Privacy Policy | Terms | Join Us |</p>
+</footer>
+
+</body>
+</html>

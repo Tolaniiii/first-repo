@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container div{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+     position: relative;
+   
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1{
+    font-size: 35px;
+}
+@media screen and (max-width:480px){
+    h1{font-size: 20px; color: chocolate;}
+    p{font-size: 30px; font-style: italic; box-shadow: 5px 0px 3px 0px rgba(43, 232, 18, 0.758);}
+}
+.heading{
+    position: relative;
+    top: 10px;
+    left: 50px; 
+    z-index: 6;
+}

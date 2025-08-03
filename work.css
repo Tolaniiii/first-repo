@@ -1,0 +1,142 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    margin-top: 60px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: rgba(10, 46, 97, .8) ;
+    font-size: 48px;
+    text-align: center;
+}
+p{
+    font-size: larger;
+    text-align: center;
+}
+div{
+    display: inline-block;
+    width: 360px;
+    height: 440px;
+    margin: 10px;
+    border-radius: 25px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.left{
+    background-color: rgb(44, 91, 244);
+   
+}
+.middle{
+    
+    background-color: rgb(8, 24, 91);
+   
+}
+.right{
+    background-color: #ecfbec;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 60px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #082552;
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+    position: relative; /* Important for absolute positioning within div */
+}
+
+div {
+    width: 1100px;
+    height: 450px;
+    border-radius: 25px;
+    position: relative; /* Ensure the checkmark is positioned relative to this */
+    margin: 10px;
+    overflow: hidden;
+}
+.left {
+    background-color: rgba(44, 91, 244,.88);
+}
+
+.middle {
+    background-color: rgba(8, 24, 91,.88);
+}
+
+.right {
+    background-color: rgba(236, 251, 236,.88);
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+#blak{
+    color: black;
+}
+#second{
+    margin-top: 60px;
+}
+img{
+    width: 270px;
+    position: absolute
+    ;
+}
+#individual{
+    margin-right: 40px;
+    transform: translate(-39px,20px);
+
+}
+#hni{
+    transform: translate(0px,20px);
+}
+#business{
+    transform: translate(-20px,20px);
+}
+#secon{
+    color: black;
+}
+#first{
+    color: rgba(8,37,82,.6)!important;
+}
+
+
+
+
+
